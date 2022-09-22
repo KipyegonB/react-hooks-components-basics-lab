@@ -17,6 +17,10 @@ h5,
 h6 {
   font-family: "Playfair Display", serif;
   margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
 }
 
 nav {
@@ -43,8 +47,7 @@ nav a:active {
   border-bottom: 2px solid tomato;
 }
 
-#home,
-#about {
+#home {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,6 +62,6 @@ nav a:active {
   background-color: cornsilk;
 }
 
-#about img {
+#about {
   max-height: 50%;
 }
